@@ -60,10 +60,10 @@ class Control extends Component {
           <div className="col-3 d-flex align-items-center">
             <select className="form-control" onChange={this.handleSoft}>
               <option value="">chon sap xep</option>
-              <option value="studentName-ASC">ten a-z</option>
-              <option value="studentName-DESC">ten z-a</option>
-              <option value="age-ASC">tuoi tang dan</option>
-              <option value="age-DESC">tuoi tang dan</option>
+              <option value="studentName-ASC">A-Z</option>
+              <option value="studentName-DESC">Z-A</option>
+              <option value="age-ASC">Tuổi tăng dan</option>
+              <option value="age-DESC">Tuổi giảm dan</option>
             </select>
           </div>
         </div>
